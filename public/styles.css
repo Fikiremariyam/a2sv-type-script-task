@@ -91,9 +91,11 @@
     box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
   }
   input[type="checkbox"] {
+    justify-self: center;
+    align-self: center;
     appearance: none;
-    width: 24px;
-    height: 24px;
+    height: 20px;
+    width: 200px;
     border: 2px solid #e94560;
     border-radius: 6px;
     background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
@@ -102,7 +104,7 @@
   }
 
   input[type="checkbox"]:checked {
-    background: linear-gradient(135deg, #72c2d1 0%, #1a73e8 100%);
+    background: linear-gradient(135deg, #b10f07 0%, #e94560 100%);
     border-color: #1a73e8;
     box-shadow: 0 0 8px rgba(26, 115, 232, 0.5);
   }
